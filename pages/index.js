@@ -1,11 +1,12 @@
-
+import React from 'react'
+import { Footer, HeroBanner } from '../component'
 import styles from '../styles/Home.module.css'
 
 
 export default function Home() {
   return (
     <>
-    HeroBanner
+    <HeroBanner></HeroBanner>
     <div className="products-heading">
       <h2>Best Selling Products</h2>
       <p>Speakers of many variations</p>
@@ -16,7 +17,7 @@ export default function Home() {
       }})
     </div>
 
-    Footer
+    <Footer></Footer>
       
     </>
   )
